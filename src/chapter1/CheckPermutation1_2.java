@@ -6,14 +6,14 @@ import java.util.Scanner;
 
 public class CheckPermutation1_2 {
 
-	public static void main(String[] args) {
-
-		Scanner sc = new java.util.Scanner(System.in);
-		String str = sc.nextLine();
-		String str1 = sc.nextLine();
-		System.out.println(isPermutation(str, str1));
-
-	}
+//	public static void main(String[] args) {
+//
+//		Scanner sc = new java.util.Scanner(System.in);
+//		String str = sc.nextLine();
+//		String str1 = sc.nextLine();
+//		System.out.println(isPermutation(str, str1));
+//
+//	}
 
 	private static boolean isPermutation(String str, String perm) {
 		int ASCII = 256;

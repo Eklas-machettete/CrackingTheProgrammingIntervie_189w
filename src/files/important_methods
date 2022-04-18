@@ -1,0 +1,12 @@
+1. Convert string to character array(with space)
+    String w=sc.nextLine();
+    char arr[]=w.toCharArray();
+
+2. Take input in array of character
+    char[] ch=sc.next().toCharArray();
+    
+3. Hashmap update previous value with associated key
+    hashmap.merge(key,1,(old,new)->old+new);
+       here 1 is the new value which will be added with old value. its my preference what will be updated value. "(old,new)->old+new" will be decide
+
+4.
