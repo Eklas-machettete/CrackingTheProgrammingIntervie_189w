@@ -26,11 +26,9 @@ public class StringCompression1_6 {
 				prev = str.charAt(i);
 				count = 1;
 			}
-          }
+		}
 		compressed.append(prev + count.toString());
-		if (compressed.length() > str.length())
-			return new StringBuilder(str);
-		return compressed;
+        return compressed.length() > str.length() ? new StringBuilder(str) : compressed;
 
 	}
 
